@@ -1,0 +1,10 @@
+.contact{
+  min-width: 220px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  text-align: center;
+}
