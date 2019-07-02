@@ -13,6 +13,7 @@ import { PeopleComponent } from './people/people.component';
 import { ContactComponent } from './contact/contact.component';
 import { PhotosComponent } from './photos/photos.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 
 
 const routeConfig: Routes = [
@@ -43,7 +44,9 @@ const routeConfig: Routes = [
     MatCardModule,
     MatButtonModule
   ],
-  providers: [],
+  providers: [
+    // {provide: LocationStrategy, useClass: HashLocationStrategy}
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
