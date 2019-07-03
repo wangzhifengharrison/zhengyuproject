@@ -1,3 +1,10 @@
+/*#footer_container{*/
+  /*background-color:*/
+  /*background-size: 100%;*/
+  /*width: 1500px;*/
+
+
+/*}*/
 .fot_support ul {
   list-style: none;
   margin: 0;
@@ -6,8 +13,9 @@
 }
 
 .footer_white {
+  margin-top: 60px;
   background-color: #fff;
-  padding: 25px 0;
+  padding: 30px 0;
 }
 
 .fot_support ul li {
