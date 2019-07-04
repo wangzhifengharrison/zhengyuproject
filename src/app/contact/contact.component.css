@@ -1,10 +1,19 @@
-.contact{
-  min-width: 220px;
-  display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: aliceblue;
-  text-align: center;
+/*.contact{*/
+  /*min-width: 220px;*/
+  /*display: inline-block;*/
+  /*margin-left: 20px;*/
+  /*margin-right: 20px;*/
+  /*margin-top: 30px;*/
+  /*margin-bottom: 30px;*/
+  /*background-color: aliceblue;*/
+  /*text-align: center;*/
+/*}*/
+
+
+#contact_background{
+  background-image: url("../../assets/contact_page_background_1.jpg") ;
+  background-size: cover;
+  height: 250px;
+  background-color: transparent;
+  background-repeat: no-repeat;
 }
